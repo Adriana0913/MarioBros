@@ -10,8 +10,9 @@ body {
     display: flex;
     height: 100vh;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
+
 
 .logo-mario {
     width: 300px;
@@ -62,7 +63,15 @@ button {
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 20px;
 }
+button:hover{
+    background: #8c0d0d;
+    transform: scale(1.1);
+}
+  
+  
 .fale-conosco {
     background: #fff;
     display: flex;
@@ -101,4 +110,31 @@ textarea {
     top: 0;
     z-index: 3;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+.header{
+display: flex;
+align-items: center;
+gap: 30px;
+margin: 30px;
+}
+.header img{
+    height: 68px;
+}
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;  
+}
+.header a:hover{
+    color: #C51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.link-whatsapp img {
+height: 60px;
+position: fixed;
+right: 20px;
+bottom: 20px;
+
 }
