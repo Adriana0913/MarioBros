@@ -1,14 +1,14 @@
-let formulario = document.querySelector(".fale-conosco");
-        let mascara = document.querySelector(".mascara-form");
+const form = document.querySelector(".formulario-fale-conosco")
+const mascara = document.querySelector(".mascara-formulario")
 
-        function cliqueiNoBotao() {
-            formulario.style.left = "50%";
-            formulario.style.transform = "translateX(-50%)"
-            mascara.style.visibility = "visible";
-        }
+function mostrarForm(){
+    form.style.left = "50%"
+    form.style.transform = "translateX(-50%)"
+    mascara.style.visibility = "visible"
+}
 
-        function sumirFormulario() {
-            formulario.style.left = "-320px";
-            formulario.style.transform = "translateX(0)"
-            mascara.style.visibility = "hidden";
-        }
+function esconderForm(){
+    form.style.left = "-145px"
+    // form.style.transform = "translateX(0%)"
+    mascara.style.visibility = "hidden"
+}
