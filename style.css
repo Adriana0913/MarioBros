@@ -208,7 +208,7 @@ textarea {
 }
 
 
-@media(max-width: 1260px){
+@media screen and (max-width: 914px){
 
     p {
         display: none;
@@ -227,7 +227,7 @@ textarea {
     }
 
     .imagem-mario-luigi {
-        width: 90vw;
+        width: 80vw;
         height: auto;
     }
 
